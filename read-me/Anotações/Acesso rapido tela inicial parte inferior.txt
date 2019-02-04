@@ -1,0 +1,12 @@
+Gerenciamento
+	Núcleo
+	Aluno
+Consulta
+	Nova
+	Editar
+	Pesquisar
+Relatório
+	Gerar
+	Pesquisar
+Sair
+	Sair deste núcleo

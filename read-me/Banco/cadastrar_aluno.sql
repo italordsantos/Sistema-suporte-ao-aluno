@@ -1,0 +1,27 @@
+﻿CREATE TABLE cadastrar_aluno(
+
+	nome varchar(50),
+	cidade varchar(50),
+	bairro varchar(50),
+	matricula varchar(20),
+	curso varchar(20),
+	dataNascimento varchar(20),
+	celular varchar(20),
+	telefone varchar(20),
+	cpf varchar(20),
+	rg varchar(20),
+	situacao varchar(20),
+	email varchar(50),
+	ne varchar(10),
+	nomeResponsavel1 varchar(50),
+	celularResponsavel1 varchar(20),
+	telefoneResponsavel1 varchar(20),
+	nomeResponsavel2 varchar(50), 
+	celularResponsavel2 varchar(20),
+	telefoneResponsavel2 varchar(20),
+	informacoesAdicionais varchar(999),
+	sexo varchar(20),
+	uf varchar(2),
+	numerocasa varchar(10),
+	endereco varchar(50)
+);

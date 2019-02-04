@@ -1,0 +1,23 @@
+﻿create table tabela_aluno (
+     vcNome varchar (100) not null,
+     vcCidade varchar (60),
+     vcBairro varchar (60),
+     vcMatricula  varchar (50) not null primary key,
+     vcCurso varchar (100) not null,
+     vcDataNascimento varchar (11),
+     vcCelular varchar (16),
+     vcTelefone varchar (16),
+     vcCpf varchar (15),
+     vcRg varchar (20),
+     vcSituacao varchar (20) not null,
+     vcEmail varchar (100),
+     bNecessidadesEspecificas boolean default false,
+     tInformacoesAdicionais text,
+     vcSexo varchar (10) not null,
+     vcUf varchar (2),
+     vcNumeroCasa varchar (5),
+     vcEndereco varchar (50),
+     vcMatriculaFilho varchar (50) not null,
+     bAlunoAtivo boolean default true,
+     foreign key (vcMatriculaFilho) references tabela_responsavel(vcMatriculaDoFilho)
+);
